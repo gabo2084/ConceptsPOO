@@ -9,11 +9,11 @@ namespace ConceptsPOO
         {
         }
 
-        public DayException(string? message) : base(message)
+        public DayException(string message) : base(message)
         {
         }
 
-        public DayException(string? message, Exception? innerException) : base(message, innerException)
+        public DayException(string message, Exception innerException) : base(message, innerException)
         {
         }
 
